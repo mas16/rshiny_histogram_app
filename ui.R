@@ -22,7 +22,7 @@ shinyUI(fluidPage(
                     value=1000, min=1, max=1000, step=1),
        sliderInput("sliderX", "Pick Mean Value",
                    -50, 50, 0),
-       sliderInput("sliderY", "Pick Variance Value",
+       sliderInput("sliderY", "Pick Standard Deviation Value",
                    1, 100, 50),
        checkboxInput("show_xlab", "Show/Hide X Axis Label", value=TRUE),
        checkboxInput("show_ylab", "Show/Hide Y Axis Label", value=TRUE),

@@ -16,8 +16,8 @@ shinyServer(function(input, output) {
                 set.seed(1234)
                 number_of_points <- input$numeric
                 meanVal <- input$sliderX[1]
-                varVal <- input$sliderY[1]
-                dataX <- rnorm(number_of_points, meanVal, varVal)
+                sdVal <- input$sliderY[1]
+                dataX <- rnorm(number_of_points, meanVal, sdVal)
                 xlab <- ifelse(input$show_xlab, "Data Value", "")
                 ylab <- ifelse(input$show_ylab, "Count", "")
                 main <- ifelse(input$show_title, "Normal Distribution", "")
