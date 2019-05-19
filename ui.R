@@ -15,7 +15,7 @@ shinyUI(fluidPage(
   # Application title
   titlePanel("Normal Distribution Simulator"),
   
-  # Sidebar with a slider input for mean, var 
+  # Sidebar with a slider input for mean, sd 
   sidebarLayout(
     sidebarPanel(
        numericInput("numeric", "How Many Data Points?",

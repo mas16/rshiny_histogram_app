@@ -5,6 +5,6 @@ account: mas16
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 937396
-bundleId: 2094800
+bundleId: 2094803
 url: https://mas16.shinyapps.io/histogram_sim/
-when: 1558281469.18075
+when: 1558281641.23135
